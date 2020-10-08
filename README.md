@@ -4,15 +4,15 @@ This repository contains all the scripts to recreate the analysis and plots in t
 
 
 It contains five subdirectories:
-1. [Basic simulations](./'Basic simulations') 
+1. [Basic simulations](./Basic_simulations) 
 
    simulations to recreate Figures 1 and 2 plus Supplementary Figures S1-S4.
 
-2. [Simulations based on real data](./Simulations\ based\ on\ real\ data) 
+2. [Simulations based on real data](./Simulations_based_on_real_data) 
 
    simulations to recreate Figure 4 and 5 and Supplementary Figure S5.
 
-3. [Case study](./Case\ study) 
+3. [Case study](./Case_study) 
 
    scripts to recreate Figure 6 and Supplementary Figure S6.
 
@@ -47,9 +47,9 @@ The bind points (after `--bind`) maybe need to be adjusted and swap `script.R` w
 
 
 ## Run order
-All scripts rely on weibull parameters obtained from the FlowCAP 4 dataset ([weibull\_fits\_FlowCAP.rds](./Simulations\ based\ on\ real\ data)) which can be generated using the script [survival\_time\_simulation.R](survival_time_simulation.R)
+All scripts rely on weibull parameters obtained from the FlowCAP 4 dataset ([weibull\_fits\_FlowCAP.rds](./Simulations_based_on_real_data)) which can be generated using the script [survival\_time\_simulation.R](survival_time_simulation.R)
 
-The scripts in [Simulations based on real data](./Simulations\ based\ on\ real\ data) additionally depend on [da\_res1\_cc\_complete.rds](./Simulations\ based\ on\ real\ data) that can be obtained by running the Case study script [censoredGLMM\_complete.R](./Case\ study/censoredGLMM_complete.R).
+The scripts in [Simulations based on real data](./Simulations_based_on_real_data) additionally depend on [da\_res1\_cc\_complete.rds](./Simulations_based_on_real_data) that can be obtained by running the Case study script [censoredGLMM\_complete.R](./Case_study/censoredGLMM_complete.R).
 
 
 
