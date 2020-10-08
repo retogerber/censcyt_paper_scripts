@@ -4,7 +4,7 @@ This repository contains all the scripts to recreate the analysis and plots in t
 
 
 It contains five subdirectories:
-1. [Basic simulations](./Basic\ simulations) 
+1. [Basic simulations](./'Basic simulations') 
 
    simulations to recreate Figures 1 and 2 plus Supplementary Figures S1-S4.
 
